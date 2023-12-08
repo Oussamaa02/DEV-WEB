@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #fff;
+    border: 5px solid ;
+    border-radius: 10px;
+    animation: borderPulse 1s infinite alternate;
+    height: auto;
+    background: url(./climate-change-5224748_1280.jpg)  fixed;
+    
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Adjust the overlay color and opacity */
+    z-index: -1; /* Place the overlay behind the content */
+}
+
+.text {
+    color: #ffff28;
+    animation: textPulse 1s infinite alternate;
+}
+
+@keyframes borderPulse {
+    from {
+        color: #FFD700;
+    }
+    to {
+        color: #F9EB56;
+    }
+    to {
+        color: #ffa500;
+    }
+}
+
+@keyframes textPulse {
+    from {
+        color: #FFD700;
+    }
+    to {
+        color: #F9EB56;
+    }
+    to {
+        color: #ffa500;
+    }
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2 {
+    /* You can keep the color for headings or adjust as needed */
+    color: #FFD700;
+}
+
+p {
+    color: white;
+}
+
+ul {
+    list-style-type: square;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+.t{
+    padding-left: 7px;
+    padding-right: 7px;
+}
